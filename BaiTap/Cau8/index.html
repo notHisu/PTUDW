@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <!-- Your CSS styles here -->
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" action="#" method="post">
+        <h3>Contact</h3>
+        <h4>Information to contact us</h4>
+        <fieldset>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Enter email address..."
+          />
+          <p id="emailError" class="error"></p>
+        </fieldset>
+        <fieldset>
+          <input
+            id="username"
+            type="text"
+            name="username"
+            placeholder="Enter username..."
+          />
+          <p id="usernameError" class="error"></p>
+        </fieldset>
+        <fieldset>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Enter password..."
+          />
+          <p id="passwordError" class="error"></p>
+        </fieldset>
+        <fieldset>
+          <input
+            id="website"
+            type="text"
+            name="website"
+            placeholder="Enter website..."
+          />
+          <p id="websiteError" class="error"></p>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
