@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>News</title>
+  </head>
+  <body>
+    <div class="container">
+      <% news.forEach((item) => { %>
+      <div class="news">
+        <img src="<%= item.image %>" alt="" />
+        <h3><a href="<%= item.link %>"><%= item.title %></a></h3>
+        <p><%= item.description %></p>
+      </div>
+      <% }) %>
+    </div>
+  </body>
+</html>
